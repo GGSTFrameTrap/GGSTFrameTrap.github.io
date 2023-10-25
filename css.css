@@ -174,18 +174,14 @@ a {
 .faqTitle1 {
     color: #ffffff;
     font-size: 30px;
+    
 }
 
 .faqTitle2 {
     color: #ffffff;
     font-size: 20px;
-}
-
-.faqText {
-    color: #ffffff;
-    font-size: 16px;
-    display: inline-block;
-    margin-left: 5%;
+    line-height: 100%;
+    text-align: left;
 }
 
 .faqTextTitle {
@@ -194,6 +190,25 @@ a {
     display: inline-block;
     margin-left: 3%;
     font-style: bold;
+    line-height: 20%;
+}
+
+.faqText {
+    color: #ffffff;
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 5%;
+    line-height: 125%;
+}
+
+.faqTextLink {
+    color: #62d4cb;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.faqSection2 {
+    line-height: 120%;
 }
 
 .collapsible {
@@ -219,6 +234,22 @@ a {
     overflow: hidden;
     background-color: #141414;
     color: white;
+  }
+
+  .hiddenContent {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #141414;
+    color: white;
+  }
+
+  .content.link {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #141414;
+    color: rgb(95, 231, 255);
   }
 
   .collapsible:after {
@@ -253,4 +284,16 @@ a {
     width: 140px;
     padding-top: 40px;
     text-align: center;
+  }
+
+  .examplePic {
+    height: 150px;
+  }
+
+  .exampleArea{
+    max-height: 150px;
+    margin-left: 5%;
+    display: inline;
+    overflow: hidden;
+    white-space: nowrap;
   }
